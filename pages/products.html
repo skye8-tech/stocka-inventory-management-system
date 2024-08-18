@@ -1,11 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../assets/styles/product.css" />
+  </head>
+  <body>
+    <header>
+      <h1>STOCKA</h1>
+      <div>
+        <img src="../assets/images/image 2.png" alt="" />
+        <img src="../assets/images/Ellipse 6.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <section class="sidebar">
+        <div class="sidebar-header">
+          <img src="../assets/images/Group.png" width="24" height="24" alt="" />
+          <h2>Dashboard</h2>
+        </div>
+        <div class="sidebar-form">
+          <div class="sidebar-form-header">
+            <h5>FILTER PRODUCTS</h5>
+          </div>
+          <form action="" method="post">
+            <div class="form-data">
+              <label for="">Tags</label>
+              <div>
+                <input
+                  type="number"
+                  name=""
+                  placeholder="Filter By Tag"
+                  id=""
+                />
+              </div>
+            </div>
+            <div class="form-data">
+              <label for="">SKU</label>
+              <div>
+                <input
+                  type="number"
+                  name=""
+                  placeholder="Filter By SKU"
+                  id=""
+                />
+              </div>
+            </div>
+            <div class="form-data">
+              <label for="">Conditions</label>
+              <div>
+                <input
+                  type="number"
+                  name=""
+                  placeholder="All Conditions"
+                  id=""
+                />
+              </div>
+            </div>
+            <div class="form-data">
+              <label for="">Category</label>
+              <div>
+                <input type="number" name="" placeholder="All Category" id="" />
+              </div>
+            </div>
+            <div class="form-data">
+              <label for="">Location</label>
+              <div>
+                <input type="number" name="" placeholder="All Location" id="" />
+              </div>
+            </div>
+            <div class="form-data">
+              <label for="">Inventory</label>
+              <div class="inventory-div">
+                <div>
+                  <label for="">From</label>
+                  <div class="from">
+                    <input type="number" name="" id="" />
+                  </div>
+                </div>
+                <div>
+                  <label for="">To</label>
+                  <div class="from">
+                    <input type="number" name="" id="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-states">
+              <div>
+                <div>
+                  <input type="radio" name="" id="" />
+                </div>
+                <label for="">Available</label>
+              </div>
+              <div>
+                <div>
+                  <input type="radio" name="" id="" />
+                </div>
+                <label for="">Reserved</label>
+              </div>
+              <div>
+                <div>
+                  <input type="radio" name="" id="" />
+                </div>
+                <label for="">On hand</label>
+              </div>
+            </div>
+            <button class="apply-btn" type="submit">APPLY FILTER</button>
+            <button class="reset-btn" type="reset">Clear Filter</button>
+          </form>
+        </div>
+      </section>
+      <section class="product">
+        <section class="product-nav">
+          <div class="product-nav-content-1">
+            <h1>Products</h1>
+            <button class="add-btn">ADD SHOP</button>
+          </div>
+          <div class="product-nav-content-2">
+            <button class="add-btn">EXPORT</button>
+            <button class="add-btn">IMPORT</button>
+            <button class="add-product-btn">ADD PRODUCT</button>
+          </div>
+        </section>
+        <section class="table-section">
+          <table>
+            <tr class="t-border">
+              <th>NAME</th>
+              <th>SKU</th>
+              <th>CONDITION</th>
+              <th>LOCATION</th>
+              <th>AVAILABLE</th>
+              <th>RESERVED</th>
+              <th>ON HAND</th>
+              <th>PRICE $</th>
+              <th>MODIFIED</th>
+            </tr>
+            <tr>
+              <td>Sugar</td>
+              <td>00023</td>
+              <td>NEW</td>
+              <td>SHOP02</td>
+              <td>742</td>
+              <td>3742</td>
+              <td>742</td>
+              <td>5599</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>LG Oled</td>
+              <td>00020</td>
+              <td>NEW</td>
+              <td>SHOP02</td>
+              <td>650</td>
+              <td>2664</td>
+              <td>650</td>
+              <td>8499</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>LG refregerator</td>
+              <td>0003</td>
+              <td>NEW</td>
+              <td>SHOP01</td>
+              <td>820</td>
+              <td>2000</td>
+              <td>820</td>
+              <td>8449</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>Samsung A02</td>
+              <td>00083</td>
+              <td>NEW</td>
+              <td>SHOP01</td>
+              <td>680</td>
+              <td>4781</td>
+              <td>1580</td>
+              <td>99999</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>OPPO Reno92</td>
+              <td>00088</td>
+              <td>NEW</td>
+              <td>SHOP01</td>
+              <td>1112</td>
+              <td>3421</td>
+              <td>1112</td>
+              <td>6999</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>Scanfrost AC</td>
+              <td>00046</td>
+              <td>NEW</td>
+              <td>SHOP03</td>
+              <td>1130</td>
+              <td>1144</td>
+              <td>1130</td>
+              <td>7899</td>
+              <td>120621</td>
+            </tr>
+
+            <tr>
+              <td>Sanny Home theater</td>
+              <td>00058</td>
+              <td>NEW</td>
+              <td>SHOP02</td>
+              <td>500</td>
+              <td>2435</td>
+              <td>500</td>
+              <td>9699</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>henessy</td>
+              <td>00017</td>
+              <td>NEW</td>
+              <td>SHOP01</td>
+              <td>300</td>
+              <td>9857</td>
+              <td>300</td>
+              <td>8899</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>swatch Wrist Watch</td>
+              <td>000010</td>
+              <td>NEw</td>
+              <td>SHOP03</td>
+              <td>2000</td>
+              <td>3665</td>
+              <td>2000</td>
+              <td>100099</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>Lenovo Laptop</td>
+              <td>000021</td>
+              <td>NEW</td>
+              <td>SHOP03</td>
+              <td>987</td>
+              <td>2765</td>
+              <td>987</td>
+              <td>70999</td>
+              <td>120621</td>
+            </tr>
+            <tr>
+              <td>Infinix Hollo</td>
+              <td>0000333</td>
+              <td>NEW</td>
+              <td>SHOP01</td>
+              <td>1000</td>
+              <td>2564</td>
+              <td>1000</td>
+              <td>5599</td>
+              <td>120621</td>
+            </tr>
+          </table>
+  </body>
 </html>
