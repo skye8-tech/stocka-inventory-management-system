@@ -1,0 +1,366 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: gray;
+}
+
+.bg{
+    background-color:blanchedalmond;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container {
+  width: 85px;
+  margin: auto;
+}
+
+nav {
+  height: 80px;
+}
+
+nav h2 {
+  float: left;
+  line-height: 80px;
+  font-size: 35px;
+  font-size: inline;
+  color: black;
+  size-adjust: 10px;
+}
+
+h4{
+  position: absolute; 
+  left: 190px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+nav ul {
+  float: right;
+  line-height: px;
+  margin: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px;
+}
+nav ul li a {
+  padding: 50px;
+  text-decoration: none;
+}
+
+.inven {
+  justify-content: center;
+  text-align: center;
+}
+
+.piont {
+  justify-content: center;
+}
+
+.manage {
+  justify-content: center;
+  left: 500px;
+}
+
+.stock{
+    padding: 10px;
+}
+
+
+.box1{
+    width: 250px;
+    height: 800px;
+    background-color: blue;
+    padding: 10px;
+    margin: 3px;
+    margin-top: 10px;
+    bottom:100px;
+
+}
+
+.box1 img{
+  width: 30px;
+  color: white;
+}
+
+.box2{
+  width: 1320px;
+  height: 1110px;
+  color: #222;
+  box-shadow: 1.5px 1.5px 5px;
+  margin: 22px;
+  margin: 200px;
+  margin-top: 5px;
+  bottom: 100px;
+
+}
+
+.box2 p{
+  margin: 20px;
+  padding: 10px;
+}
+
+.container {
+  width: 85px;
+  margin: auto;
+}
+
+nav {
+  height: 80px;
+}
+
+nav h2 {
+  float: left;
+  line-height: 80px;
+  font-size: 35px;
+  font-size: inline;
+  color: black;
+  size-adjust: 10px;
+}
+
+h4{
+  position: absolute; 
+  left: 190px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+nav ul {
+  float: right;
+  line-height: px;
+  margin: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px;
+}
+nav ul li a {
+  padding: 50px;
+  text-decoration: none;
+}
+
+
+
+.box4{
+  width: 700px;
+  height: 350px;
+  color: #222;
+  box-shadow: 1.5px 1.5px 5px;
+  position: absolute;
+  left: 460px;
+  top: 1210px;
+  
+}
+
+.box3{
+  width: 700px;
+  height: 330px;
+  color: #222;
+  box-shadow: 1.5px 1.5px 5px;
+  position: absolute;
+  left:0px;
+  bottom: 390px;
+  
+}
+
+.top{
+  text-align:right;
+  padding: 10px;
+  background-color: blanchedalmond;
+
+}
+
+.top h2{
+  text-align: left;
+  font-size: 45px;
+}
+
+.sect{
+  height: 400px;
+  margin: 30px;
+  padding: 40px;
+  bottom: 200px;
+  margin-top: 10px;
+  background-color: blanchedalmond;
+
+}
+
+.sect h5{
+font-size: 25px;
+}
+
+.sect h6{
+  font-size: 25px;
+  text-align: right;
+}
+
+.sect p{
+  text-align:right ;
+}
+
+.stocka{
+  padding: 10px;
+}
+
+.box5{
+  width: 250px;
+    height: 800px;
+    background-color: blue;
+    padding: 0px;
+    margin: 5px;
+    margin-top: 10px;
+    
+}
+
+.box5 img{
+  width: 30px;
+  color: white;
+}
+
+.stocka{
+  padding: 10px;
+
+}
+
+.box5 img{
+  width: 40px;
+  padding: 5px;
+  margin: 5px;
+
+
+}
+
+.boxm{
+  width: 1320px;
+  height: 900px;
+  color: #222;
+  box-shadow: 1.5px 1.5px 5px;
+  margin: 22px;
+  margin: 200px;
+  margin-top: 5px;
+  bottom: 100px;
+}
+
+.container {
+  width: 85px;
+  margin: auto;
+}
+
+nav {
+  height: 80px;
+}
+
+nav h2 {
+  float: left;
+  line-height: 80px;
+  font-size: 35px;
+  font-size: inline;
+  color: black;
+  size-adjust: 10px;
+}
+
+h4{
+  position: absolute; 
+  left: 190px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+nav ul {
+  float: right;
+  line-height: px;
+  margin: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px;
+}
+nav ul li a {
+  padding: 50px;
+  text-decoration: none;
+}
+
+table{
+  height: 500px;
+  width: 1000px;
+  border-collapse: collapse;
+  
+
+}
+
+th td{
+  padding: 12px 15px;
+  
+}
+
+
+
+.pro{
+  padding: 80px;
+  text-decoration: none;
+  background-color: blanchedalmond;
+  height: 500px;
+
+}
+
+.page{
+  text-align: right;
+  margin-top: 100px;
+  padding: 80px;
+}
+
+.box6{
+  height: 400px;
+  width: 1700px;
+  background-color: blue;
+  padding: 20px;
+}
+
+.box6 img{
+  padding: 50px;
+}
+
+.box4 table{
+  width: 700px;
+  padding: none;
+  height: 300px;
+  
+  
+}
+
+.stock img{
+  text-align: right;
+  background-color: blanchedalmond;
+
+}
+
+.ellipse img{
+  position: relative;
+  bottom: -170px;
+  right: -1549px;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
