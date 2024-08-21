@@ -1,0 +1,271 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  height: 911px;
+  width: 240px;
+  background: #093e9c;
+  margin: 25px 25px;
+  color: white;
+}
+
+.sidebar .sidebar-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.sidebar-form {
+  padding: 20px;
+}
+
+.sidebar-form .sidebar-form-header {
+  color: white;
+}
+
+.form-data {
+  margin-top: 16px;
+}
+
+.form-data div input {
+  width: 170px;
+  height: 40px;
+  border: 1px solid #1a1a1a33;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+.inventory-div {
+  padding-top: 16px;
+  display: flex;
+  gap: 64px;
+}
+
+.inventory-div div .from input {
+  width: 40px;
+}
+
+.form-states {
+  margin-top: 16px;
+}
+
+.form-states div {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.form-states div label {
+  margin-top: 4px;
+}
+
+.apply-btn {
+  margin-top: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 52px;
+  border-radius: 25px;
+  padding: 16px 48px 16px 48px;
+  background: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset-btn {
+  margin-top: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 52px;
+  border-radius: 25px;
+  padding: 16px 48px 16px 48px;
+  background: #093e9c;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+/* Table Styling */
+main {
+  display: flex;
+  gap: 16px;
+}
+
+.product {
+  width: 1126px;
+  margin-top: 16px;
+}
+
+.add-btn {
+  width: 112px;
+  height: 32px;
+  background: white;
+  color: #093e9c;
+  border: 1px solid #093e9c;
+  border-radius: 15px;
+}
+
+.add-product-btn {
+  width: 112px;
+  height: 32px;
+  background: #093e9c;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.product-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-nav-content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.product-nav-content-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.table-section {
+  width: 100%;
+}
+
+.table-section table {
+  width: 100%;
+  height: 200px;
+}
+
+.table-section table th {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #1a1a1a33;
+}
+
+.table-section table td {
+  row-gap: 80px;
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #1a1a1a33;
+}
+/* styling for box// */
+#box {
+  border: 1px outset;
+  width: 430px;
+  height: 438px;
+  margin: -690px;
+  margin-left: 600px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 4px 40px 0px #0000001a;
+  position: absolute;
+}
+.file {
+  padding: 20px;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+#box img {
+  position: absolute;
+  left: 30px;
+  padding: 20px;
+}
+
+.circle {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#box1 {
+  border: 1px solid;
+  height: 10vh;
+  width: 70px;
+  background-color: grey;
+  border-radius: 80px;
+  position: relative;
+}
+
+#box2 {
+  border: 1px solid;
+  height: 10vh;
+  width: 70px;
+  background-color: grey;
+  border-radius: 80px;
+  position: relative;
+}
+
+#box1 img {
+  margin-left: -30px;
+}
+
+#box2 img {
+  margin-left: -30px;
+}
+
+.import {
+  text-wrap: nowrap;
+  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+  gap: 66px;
+  margin-left: -200px;
+  font-size: 10px;
+}
+
+select {
+  width: 267px;
+  height: 32px;
+  border-end-start-radius: 16px;
+  border-start-start-radius: 16px;
+  padding-left: 25px;
+}
+
+.upload-btn {
+  width: 104px;
+  height: 32px;
+  background: #093e9c;
+  color: white;
+  border: none;
+  outline: none;
+  border-start-end-radius: 16px;
+  border-end-end-radius: 16px;
+}
+
+.select-option {
+  margin-top: 55px;
+  margin-left: 25px;
+  display: flex;
+}
+
+.import-btn {
+  height: 48px;
+  width: 372px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background: #093e9c;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
